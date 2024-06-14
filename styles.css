@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #000;
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabecalho img {
+    height: 120px;
+}
+
+.cabecalho ul {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.cabecalho a {
+    color: #FFF;
+}
+
+.cabecalho a:hover {
+    color: #FF0000;
+}
+
+.picture {
+    border-top: 1px solid #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.picture img {
+    width: 70%;
+}
+
+h1 {
+    font-family: "Metal Mania", system-ui;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #FF0000;
+}
+
+.division img {
+    width: 70px;
+    display: block;
+    margin: 100px auto;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 24px;
+}
+
+h2 {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.members_individual {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 8px;
+}
+
+.bio {
+    display: flex;
+}
+
+.bio p {
+    margin-left: 8px;
+}
+
+.bio img {
+    height: 300px;
+    width: 200px;
+}
+
+.all_members {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 24px;
+}
+
+h3 {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    color: #FF0000;
+}
+
+#contact_medias .container {
+    display: flex;
+    padding: 0px 24px;
+    margin-bottom: 100px;
+}
+
+.contact,
+.medias {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    margin-bottom: 8px;
+    padding: 8px;
+    width: 420px;
+    border:2px solid #FFF;
+    background-color: #000;
+    color: #FFF;
+}
+
+form textarea {
+    height: 200px;
+    resize: none;
+}
+
+form input,
+form textarea {
+    font-family: "Montserrat", sans-serif;
+}
+
+form button {
+    cursor: pointer;
+    font-family: "Metal Mania", system-ui;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+form button:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+.social_links img {
+    height: 40px;
+    width: 40px;
+}
+
+.social_links ul {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.medias {
+    padding-left: 24px;
+}
+
+footer div {
+    height: 120px;
+    border-top: 1px solid #FFF;
+}
+
+footer img {
+    height: 80px;
+    display: block;
+    margin: 24px auto;
+}
+
+
